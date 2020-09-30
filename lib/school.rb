@@ -55,7 +55,7 @@ class School
   end
   
   def sort
-    roster.map{|key, value| value.sort}
+    roster.each{|key, value| value.sort!}
   end
   
 end
